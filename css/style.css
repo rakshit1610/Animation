@@ -1,0 +1,13 @@
+body{
+    background: url(../images/space.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#astronaut{
+    background: url(../images/ast.png);
+    background-size: cover;
+    width: 201px;
+    height: 247px;
+    top: 0;
+}
