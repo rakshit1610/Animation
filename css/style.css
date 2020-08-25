@@ -1,7 +1,11 @@
 body{
-    background: url(../images/space.jpg); 
+    margin:0;
+    padding:0;
+    background: url(../images/space1.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
 }
 
 #astronaut{
@@ -9,5 +13,8 @@ body{
     background-size: cover;
     width: 201px;
     height: 247px;
-    top: 0;
+    position: absolute;
 }
+
+
+
