@@ -21,4 +21,14 @@ function animation() {
 
   animation();
 
+  function bg1(){
+    document.getElementById("bg").style.backgroundImage="url(images/space1.jpg)";
+    }
 
+  function bg2(){
+document.getElementById("bg").style.backgroundImage="url(images/space2.jpg)";
+}
+
+  function bg3(){
+  document.getElementById("bg").style.backgroundImage="url(images/space3.jpg)";
+  }
