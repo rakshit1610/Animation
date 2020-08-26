@@ -8,7 +8,7 @@ setInterval(function(){
     astronaut.style.top= tp + "px";
     left++;
 
-    if(tp>(window.innerHeight)){
+    if(tp>window.innerHeight){
         ptr+=0.25;
         astronaut.style.transform= `rotate(${ptr}deg)`;
         moveLeft=false;
@@ -38,5 +38,5 @@ setInterval(function(){
         document.getElementById("bg").style.backgroundImage=`url(images/space${[i]}.jpg)`;
 
     }
-})
+},7);
 
