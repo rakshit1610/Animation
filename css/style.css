@@ -20,20 +20,6 @@ body{
     background-size: cover;
     width: 201px;
     height: 247px;
-    position: absolute;
+    position: absolute;     /* to create animation,  the element should be abasolute and parent should be relative */
 }
-
-#btn{
-    position: fixed;
-    bottom:0;
-}
-
-button{
-    width:100px;
-    height: 27px;
-    font-size: 18px;
-    background-color: white;
-    outline: none;
-}
-
 
